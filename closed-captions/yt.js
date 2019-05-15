@@ -36,6 +36,7 @@ function addSpans(){
 	updateTimerDisplay();
 }
 
+
 function updateTimerDisplay(){
 	var t = player.getCurrentTime();
 	t = Math.floor10(t,-1);

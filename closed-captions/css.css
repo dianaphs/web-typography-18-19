@@ -1,24 +1,191 @@
-/* **********************************************
-Basic mechanics
-Hide all paragraphs by default
-Show them when they receive the class 'on'
-Hide them when they receive the class 'off'
-Feel free to adjust the defaults to your needs.
-********************************************** */
-
-body {
-    background-color: #E2DCDC;
-    padding: 6em;
-}
+/* typography */
 
 .p,
 .chat-name,
 .chat-with,
 .voice1,
 .voice2,
-.voice3, 
+.voice3,
 .namevoice1 {
     font-family: sans-serif;
+}
+
+.p0 span:nth-child(1)::after,
+.p2 span:nth-child(1)::after,
+.p6 span:nth-child(1)::after, 
+.p8 span:nth-child(1)::after, 
+.p10 span:nth-child(1)::after, 
+.p11 span:nth-child(1)::after,
+.p13 span:nth-child(1)::after,
+.p14 span:nth-child(1)::after,
+.p16 span:nth-child(1)::after, 
+.p17 span:nth-child(1)::after, 
+.p19 span:nth-child(1)::after,
+.p21 span:nth-child(1)::after,
+.p22 span:nth-child(1)::after,
+.p24 span:nth-child(1)::after,
+.p25 span:nth-child(1)::after, 
+.p27 span:nth-child(1)::after, 
+.p28 span:nth-child(1)::after, 
+.p30 span:nth-child(1)::after,
+.p32 span:nth-child(1)::after,
+.p33 span:nth-child(1)::after,
+.p35 span:nth-child(1)::after,
+.p36 span:nth-child(1)::after,
+.p38 span:nth-child(1)::after,
+.p40 span:nth-child(1)::after,
+.p44 span:nth-child(1)::after,
+.p45 span:nth-child(1)::after,
+.p46 span:nth-child(1)::after,
+.p48 span:nth-child(1)::after,
+.p50 span:nth-child(1)::after,
+.p52 span:nth-child(1)::after,
+.p54 span:nth-child(1)::after,
+.p55 span:nth-child(1)::after,
+.p57 span:nth-child(1)::after,
+.p59 span:nth-child(1)::after,
+.p61 span:nth-child(1)::after,
+.p63 span:nth-child(1)::after,
+.p65 span:nth-child(1)::after,
+.p67 span:nth-child(1)::after,
+.p69 span:nth-child(1)::after,
+.p71 span:nth-child(1)::after,
+.p73 span:nth-child(1)::after,
+.p75 span:nth-child(1)::after,
+.p77 span:nth-child(1)::after,
+.p79 span:nth-child(1)::after {
+    content: "00:22";
+    display: block;
+    font-weight: lighter;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+}
+
+
+.p1 span:nth-child(1)::after, 
+.p3 span:nth-child(1)::after, 
+.p4 span:nth-child(1)::after, 
+.p5 span:nth-child(1)::after, 
+.p7 span:nth-child(1)::after, 
+.p9 span:nth-child(1)::after, 
+.p12 span:nth-child(1)::after, 
+.p15 span:nth-child(1)::after, 
+.p16 span:nth-child(1)::after,
+.p18 span:nth-child(1)::after, 
+.p20 span:nth-child(1)::after, 
+.p23 span:nth-child(1)::after, 
+.p26 span:nth-child(1)::after, 
+.p29 span:nth-child(1)::after, 
+.p31 span:nth-child(1)::after,
+.p34 span:nth-child(1)::after,
+.p37 span:nth-child(1)::after,
+.p39 span:nth-child(1)::after,
+.p41 span:nth-child(1)::after,
+.p42 span:nth-child(1)::after,
+.p43 span:nth-child(1)::after,
+.p47 span:nth-child(1)::after,
+.p49 span:nth-child(1)::after,
+.p51 span:nth-child(1)::after,
+.p53 span:nth-child(1)::after,
+.p54 span:nth-child(1)::after,
+.p56 span:nth-child(1)::after,
+.p58 span:nth-child(1)::after,
+.p60 span:nth-child(1)::after,
+.p62 span:nth-child(1)::after,
+.p64 span:nth-child(1)::after,
+.p66 span:nth-child(1)::after,
+.p68 span:nth-child(1)::after,
+.p70 span:nth-child(1)::after,
+.p72 span:nth-child(1)::after,
+.p74 span:nth-child(1)::after,
+.p76 span:nth-child(1)::after,
+.p78 span:nth-child(1)::after {
+    content: "00:22";
+    display: block;
+    font-weight: lighter;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    font-size: 12px;
+}
+
+
+.p0 span:nth-child(1)::before,
+.p2 span:nth-child(1)::before,
+.p8 span:nth-child(1)::before,
+.p8 span:nth-child(1)::before,
+.p10 span:nth-child(1)::before,
+.p11 span:nth-child(1)::before,
+.p13 span:nth-child(1)::before,
+.p14 span:nth-child(1)::before,
+.p16 span:nth-child(1)::before,
+.p17 span:nth-child(1)::before,
+.p19 span:nth-child(1)::before,
+.p21 span:nth-child(1)::before,
+.p22 span:nth-child(1)::before,
+.p24 span:nth-child(1)::before,
+.p25 span:nth-child(1)::before,
+.p27 span:nth-child(1)::before,
+.p28 span:nth-child(1)::before,
+.p30 span:nth-child(1)::before,
+.p32 span:nth-child(1)::before,
+.p33 span:nth-child(1)::before,
+.p36 span:nth-child(1)::before,
+.p35 span:nth-child(1)::before,
+.p38 span:nth-child(1)::before,
+.p40 span:nth-child(1)::before,
+.p44 span:nth-child(1)::before,
+.p45 span:nth-child(1)::before,
+.p46 span:nth-child(1)::before,
+.p48 span:nth-child(1)::before,
+.p50 span:nth-child(1)::before,
+.p52 span:nth-child(1)::before,
+.p54 span:nth-child(1)::before,
+.p55 span:nth-child(1)::before,
+.p57 span:nth-child(1)::before,
+.p59 span:nth-child(1)::before,
+.p61 span:nth-child(1)::before,
+.p63 span:nth-child(1)::before,
+.p65 span:nth-child(1)::before,
+.p67 span:nth-child(1)::before,
+.p69 span:nth-child(1)::before,
+.p71 span:nth-child(1)::before,
+.p73 span:nth-child(1)::before,
+.p75 span:nth-child(1)::before,
+.p77 span:nth-child(1)::before,
+.p79 span:nth-child(1)::before {
+    content: "Captain:";
+    font-weight: bold;
+    color: red;
+    padding-right: 5px;
+}
+
+.p6 span:nth-child(1)::before {
+    content: "Police man:";
+    font-weight: bold;
+    color: blue;
+    padding-right: 5px;
+}
+
+.p1 span:nth-child(2)::after {
+    position: relative;
+    content: "😎";
+    right: 0;
+    padding-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+/* interface */
+
+body {
+    background-color: #E2DCDC;
+    padding: 2em 9em;
 }
 
 .container {
@@ -28,38 +195,58 @@ body {
 
 .splitscreen-left {
     background-color: #000000;
+    display: grid;
+    align-items: center;
 }
 
 #video-placeholder {
-    justify-content: center;
     width: 100%;
+
 }
 
 .splitscreen-right {
     background-color: #F7F7F7;
 }
 
-#closed-captions {
-    padding: 30px 30px 20px;
-    border-bottom: 2px solid white;
-    overflow-y: scroll;
-    height: 50vh;
+.send-btn {
+    background-color: #FFFFFF;
+    border: none;
+    color: darkgray;
+    text-decoration: none;
+    height: 10%;
+    width: 10%x;
+    display: inline-block;
+    font-size: 20px;
 }
 
+.circle-btn {
+    background-color: #FF4800;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+/* chat */
+
 .chat-header {
-    padding: 20px;
+    padding: 1em 2em 1.5em;
     border-bottom: 2px solid white;
     background-image: linear-gradient(to right, #FF6200, #FF0000);
+}
 
+.chat-with {
+    line-height: 0;
 }
 
 img {
     float: left;
     padding-right: 2em;
-}
-
-.namevoice1 {
-    color: red;
 }
 
 .chat-name {
@@ -74,19 +261,19 @@ img {
     color: white;
 }
 
-textarea {
-    width: 90%;
-    border: none;
-    padding: 1em;
-    resize: none;
+#closed-captions {
+    padding: 30px 30px 20px;
+    border-bottom: 2px solid white;
+    overflow-y: scroll;
+    height: 50vh;
 }
 
--- #closed-captions {
+#closed-captions {
     position: relative;
 }
 
 #closed-captions p {
-    opacity: 1;
+    opacity: 0;
     transition: .05s;
 }
 
@@ -98,67 +285,10 @@ textarea {
     transition: .2s;
 }
 
-.float-right {
-    background-color: #6CDEDE;
-}
-
-.float-left {
-    background-color: white;
-}
-
-.float-left,
-.float-right {
-    position: relative;
-    padding: 0px 20px 0px 20px;
-    border-radius: .5em;
-}
-
-.namevoice1 {
-    color: red;
-    line-height: 0;
-    padding-top: 10px;
-}
-
-.float-left:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border: 12px solid transparent;
-    border-right-color: #ffffff;
-    border-left: 0;
-    border-bottom: 0;
-    margin-top: -6px;
-    margin-left: -12px;
-}
-
-.float-right:after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 0;
-    height: 0;
-    border: 12px solid transparent;
-    border-left-color: #6CDEDE;
-    border-right: 0;
-    border-bottom: 0;
-    margin-top: -6px;
-    margin-right: -12px;
-}
-
 ul {
     list-style-type: none;
-
+    margin: 0;
 }
-
-li{
-        padding-bottom: 1em;
-}
-
-/* chat message */
 
 
 .align-left {
@@ -184,4 +314,193 @@ li{
     content: " ";
     clear: both;
     height: 0;
+}
+
+.chat-input {
+    background-color: white;
+    padding: 20px;
+
+}
+
+textarea {
+    width: 85%;
+    border: none;
+    resize: none;
+    font-size: 16px;
+
+}
+
+.voice2 {
+    background-color: #6CDEDE;
+}
+
+.voice1, .voice3 {
+    background-color: white;
+}
+
+.voice1,
+.voice2,
+.voice3 {
+    position: relative;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.namevoice1 {
+    color: red;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+.voice1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-right-color: #ffffff;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -6px;
+    margin-left: -12px;
+}
+
+.voice2:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-left-color: #6CDEDE;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -6px;
+    margin-right: -12px;
+}
+
+/* 0 */
+
+.sound0 { 
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 9 */
+
+.sound1 {
+    background-image: url(images/giphy2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 12 */
+
+.sound2 {
+    background-image: url(images/flicking.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 15 */
+
+.sound3 {
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 16.5 */
+
+.sound4 {
+    background-image: url(images/flash.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 17 */
+
+.sound5 {
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 24 */
+
+.sound6 {
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 25.8 */
+
+
+.sound7 {
+    background-image: url(images/flash.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sound8 {
+    background-image: url(images/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sound9 {
+    background-image: url(images/screennoise1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sound10 {
+    background-image: url(images/flash.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sound11 {
+    background-image: url(images/screennoise1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sound12 {
+     background-image: url(images/black.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.sound13 {
+    background-image: url(images/screennoise3.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sound14 {
+    background-image: url(images/black.jpeg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
