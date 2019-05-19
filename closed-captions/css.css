@@ -8,25 +8,26 @@
 .voice3,
 .namevoice1 {
     font-family: sans-serif;
+    color: white;
 }
 
 .p0 span:nth-child(1)::after,
 .p2 span:nth-child(1)::after,
-.p6 span:nth-child(1)::after, 
-.p8 span:nth-child(1)::after, 
-.p10 span:nth-child(1)::after, 
+.p6 span:nth-child(1)::after,
+.p8 span:nth-child(1)::after,
+.p10 span:nth-child(1)::after,
 .p11 span:nth-child(1)::after,
 .p13 span:nth-child(1)::after,
 .p14 span:nth-child(1)::after,
-.p16 span:nth-child(1)::after, 
-.p17 span:nth-child(1)::after, 
+.p16 span:nth-child(1)::after,
+.p17 span:nth-child(1)::after,
 .p19 span:nth-child(1)::after,
 .p21 span:nth-child(1)::after,
 .p22 span:nth-child(1)::after,
 .p24 span:nth-child(1)::after,
-.p25 span:nth-child(1)::after, 
-.p27 span:nth-child(1)::after, 
-.p28 span:nth-child(1)::after, 
+.p25 span:nth-child(1)::after,
+.p27 span:nth-child(1)::after,
+.p28 span:nth-child(1)::after,
 .p30 span:nth-child(1)::after,
 .p32 span:nth-child(1)::after,
 .p33 span:nth-child(1)::after,
@@ -64,20 +65,20 @@
 }
 
 
-.p1 span:nth-child(1)::after, 
-.p3 span:nth-child(1)::after, 
-.p4 span:nth-child(1)::after, 
-.p5 span:nth-child(1)::after, 
-.p7 span:nth-child(1)::after, 
-.p9 span:nth-child(1)::after, 
-.p12 span:nth-child(1)::after, 
-.p15 span:nth-child(1)::after, 
+.p1 span:nth-child(1)::after,
+.p3 span:nth-child(1)::after,
+.p4 span:nth-child(1)::after,
+.p5 span:nth-child(1)::after,
+.p7 span:nth-child(1)::after,
+.p9 span:nth-child(1)::after,
+.p12 span:nth-child(1)::after,
+.p15 span:nth-child(1)::after,
 .p16 span:nth-child(1)::after,
-.p18 span:nth-child(1)::after, 
-.p20 span:nth-child(1)::after, 
-.p23 span:nth-child(1)::after, 
-.p26 span:nth-child(1)::after, 
-.p29 span:nth-child(1)::after, 
+.p18 span:nth-child(1)::after,
+.p20 span:nth-child(1)::after,
+.p23 span:nth-child(1)::after,
+.p26 span:nth-child(1)::after,
+.p29 span:nth-child(1)::after,
 .p31 span:nth-child(1)::after,
 .p34 span:nth-child(1)::after,
 .p37 span:nth-child(1)::after,
@@ -157,9 +158,10 @@
 .p77 span:nth-child(1)::before,
 .p79 span:nth-child(1)::before {
     content: "Captain:";
-    font-weight: bold;
-    color: red;
+    color: #E65A29;
     padding-right: 5px;
+    font-style: normal;
+
 }
 
 .p6 span:nth-child(1)::before {
@@ -174,24 +176,41 @@
     content: "😎";
     right: 0;
     padding-left: 5px;
-    width: 16px;
-    height: 16px;
 }
 
+.p6 span:nth-child(3)::after {
+    position: relative;
+    content: "🤬";
+    padding-left: 5px;
+}
 
+.p0 span:nth-child(7),
+.p6 span {
+    font-weight: bold;
+}
+
+.p6 span:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.p0 span:nth-child(1),
+.p0 span:nth-child(2),
+.p0 span:nth-child(3),
+.p0 span:nth-child(4),
+.p0 span:nth-child(5),
+.p9 span,
+.p12 span {
+    font-style: italic;
+}
+
+. {
+    font-weight: bold;
+    font-style: italic;
+}
 
 
 /* interface */
 
-body {
-    background-color: #E2DCDC;
-    padding: 2em 9em;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
 
 .splitscreen-left {
     background-color: #000000;
@@ -205,13 +224,13 @@ body {
 }
 
 .splitscreen-right {
-    background-color: #F7F7F7;
+    background-color: #000000;
 }
 
 .send-btn {
-    background-color: #FFFFFF;
+    background-color: #2A3D47;
     border: none;
-    color: darkgray;
+    color: #FFFFFF;
     text-decoration: none;
     height: 10%;
     width: 10%x;
@@ -219,29 +238,16 @@ body {
     font-size: 20px;
 }
 
-.circle-btn {
-    background-color: #FF4800;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 50%;
-}
-
 /* chat */
 
 .chat-header {
     padding: 1em 2em 1.5em;
-    border-bottom: 2px solid white;
-    background-image: linear-gradient(to right, #FF6200, #FF0000);
+    background-color: #2A3D47;
 }
 
 .chat-with {
     line-height: 0;
+      font-style: italic;
 }
 
 img {
@@ -263,7 +269,6 @@ img {
 
 #closed-captions {
     padding: 30px 30px 20px;
-    border-bottom: 2px solid white;
     overflow-y: scroll;
     height: 50vh;
 }
@@ -317,25 +322,30 @@ ul {
 }
 
 .chat-input {
-    background-color: white;
+    background-color: #2A3D47;
     padding: 20px;
 
 }
 
 textarea {
-    width: 85%;
+    height: 2vw;
+    width: 30vw;
     border: none;
     resize: none;
     font-size: 16px;
+    background-color: #2A3D47;
+    color: white;
 
 }
+
 
 .voice2 {
-    background-color: #6CDEDE;
+    background-color: #47697B;
 }
 
-.voice1, .voice3 {
-    background-color: white;
+.voice1,
+.voice3 {
+    background-color: #2A3D47;
 }
 
 .voice1,
@@ -360,7 +370,7 @@ textarea {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-right-color: #ffffff;
+    border-right-color: #2A3D47;
     border-left: 0;
     border-bottom: 0;
     margin-top: -6px;
@@ -375,7 +385,7 @@ textarea {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-left-color: #6CDEDE;
+    border-left-color: #47697B;
     border-right: 0;
     border-bottom: 0;
     margin-top: -6px;
@@ -384,8 +394,8 @@ textarea {
 
 /* 0 */
 
-.sound0 { 
-    background-image: url(images/giphy.gif);
+.sound0 {
+    background-image: url(images/hallway.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,7 +422,7 @@ textarea {
 /* 15 */
 
 .sound3 {
-    background-image: url(images/giphy.gif);
+    background-image: url(images/hallway.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,7 +440,7 @@ textarea {
 /* 17 */
 
 .sound5 {
-    background-image: url(images/giphy.gif);
+    background-image: url(images/hallway.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,7 +449,7 @@ textarea {
 /* 24 */
 
 .sound6 {
-    background-image: url(images/giphy.gif);
+    background-image: url(images/hallway.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -457,7 +467,7 @@ textarea {
 
 
 .sound8 {
-    background-image: url(images/giphy.gif);
+    background-image: url(images/hallway.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -485,7 +495,7 @@ textarea {
 }
 
 .sound12 {
-     background-image: url(images/black.jpeg);
+    background-image: url(images/black.jpeg);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -504,3 +514,52 @@ textarea {
     background-repeat: repeat;
     background-size: cover;
 }
+
+@media (min-width:320px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .splitscreen-left {
+        background-color: #000000;
+        display: none;
+    }
+
+    body {
+        background-color: #FFFFFF;
+        padding: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* media queries tablet */
+
+    @media (min-width:641px) {
+
+
+        body {
+            background-color: #363636;
+            padding: 3em 3em;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        .splitscreen-left {
+            background-color: #000000;
+            display: grid;
+            align-content: center;
+        }
+
+        /* media queries desktop */
+
+        @media (min-width:1025px) {
+
+            body {
+                background-color: #363636;
+                padding: 4em 10em;
+            }
