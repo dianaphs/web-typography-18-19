@@ -59,7 +59,7 @@
     display: block;
     font-weight: lighter;
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     left: 0;
     font-size: 12px;
 }
@@ -107,7 +107,7 @@
     display: block;
     font-weight: lighter;
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
     right: 0;
     font-size: 12px;
 }
@@ -161,14 +161,18 @@
     color: #E65A29;
     padding-right: 5px;
     font-style: normal;
-
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: none;
 }
 
 .p6 span:nth-child(1)::before {
     content: "Police man:";
-    font-weight: bold;
-    color: blue;
+    color: #3FC1B0;
     padding-right: 5px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
 }
 
 .p1 span:nth-child(2)::after {
@@ -184,30 +188,156 @@
     padding-left: 5px;
 }
 
-.p0 span:nth-child(7),
-.p6 span {
-    font-weight: bold;
+.p56 span:nth-child(1)::before {
+    position: relative;
+    content: "🤯";
+    padding-right: 5px;
 }
 
-.p6 span:nth-child(2) {
-    text-transform: uppercase;
+
+.p79 span:nth-child(6)::after {
+    position: relative;
+    content: "😣";
+    padding-left: 5px;
 }
+
 
 .p0 span:nth-child(1),
 .p0 span:nth-child(2),
 .p0 span:nth-child(3),
 .p0 span:nth-child(4),
-.p0 span:nth-child(5),
 .p9 span,
-.p12 span {
+.p12 span,
+.p15 span:nth-child(1),
+.p18 span:nth-child(1),
+.p20 span:nth-child(1),
+.p23 span:nth-child(1),
+.p26 span:nth-child(1),
+.p29 span:nth-child(1),
+.p31 span:nth-child(1),
+.p37 span:nth-child(1),
+.p37 span:nth-child(2),
+.p37 span:nth-child(3),
+.p39 span,
+.p41 span,
+.p42 span,
+.p43 span,
+.p49 span:nth-child(1),
+.p51 span,
+.p53 span,
+.p56 span,
+.p58 span,
+.p60 span,
+.p64 span,
+.p66 span,
+.p68 span,
+.p70 span,
+.p72 span,
+.p74 span,
+.p76 span,
+.p78 span {
     font-style: italic;
 }
 
-. {
+
+.p0 span:nth-child(7),
+.p6 span:nth-child(1),
+.p6 span:nth-child(2),
+.p8 span:nth-child(1),
+.p11 span:nth-child(1),
+.p14 span:nth-child(1),
+.p16 span:nth-child(14),
+.p17 span:nth-child(1),
+.p19 span:nth-child(1),
+.p22 span:nth-child(5),
+.p19 span:nth-child(1),
+.p21 span:nth-child(4),
+.p21 span:nth-child(5),
+.p21 span:nth-child(11),
+.p22 span:nth-child(1),
+.p24 span:nth-child(5),
+.p24 span:nth-child(6),
+.p24 span:nth-child(7),
+.p25 span:nth-child(1),
+.p27 span:nth-child(1),
+.p27 span:nth-child(2),
+.p27 span:nth-child(3),
+.p28 span:nth-child(1),
+.p30 span:nth-child(1),
+.p30 span:nth-child(2),
+.p30 span:nth-child(3),
+.p32 span:nth-child(1),
+.p32 span:nth-child(2),
+.p32 span:nth-child(3),
+.p32 span:nth-child(4),
+.p32 span:nth-child(5),
+.p33 span:nth-child(1),
+.p35 span:nth-child(1),
+.p35 span:nth-child(2),
+.p35 span:nth-child(3),
+.p35 span:nth-child(11),
+.p36 span:nth-child(1),
+.p38 span:nth-child(1),
+.p38 span:nth-child(2),
+.p38 span:nth-child(3),
+.p40 span:nth-child(1),
+.p40 span:nth-child(2),
+.p40 span:nth-child(3),
+.p40 span:nth-child(4),
+.p40 span:nth-child(5),
+.p48 span:nth-child(1),
+.p50 span:nth-child(8),
+.p52 span:nth-child(15),
+.p50 span:nth-child(8),
+.p57 span:nth-child(1),
+.p57 span:nth-child(2),
+.p58 span:nth-child(1),
+.p58 span:nth-child(2),
+.p59 span:nth-child(1),
+.p60 span:nth-child(1),
+.p61 span:nth-child(9),
+.p62 span:nth-child(1),
+.p63 span:nth-child(5),
+.p63 span:nth-child(9),
+.p64 span:nth-child(1),
+.p65 span,
+.p66 span,
+.p67 span,
+.p68 span,
+.p69 span,
+.p70 span,
+.p71 span,
+.p73 span,
+.p75 span,
+.p77 span {
+    text-transform: uppercase;
     font-weight: bold;
-    font-style: italic;
 }
 
+
+
+.p54 span:nth-child(2),
+.p54 span:nth-child(3),
+.p54 span:nth-child(4),
+.p54 span:nth-child(5),
+.p54 span:nth-child(6),
+.p54 span:nth-child(7),
+.p54 span:nth-child(8),
+.p54 span:nth-child(9),
+.p54 span:nth-child(10),
+.p54 span:nth-child(11),
+.p54 span:nth-child(12),
+.p61 span:nth-child(1),
+.p61 span:nth-child(2),
+.p61 span:nth-child(3),
+.p61 span:nth-child(4),
+.p61 span:nth-child(5),
+.p61 span:nth-child(6),
+.p61 span:nth-child(7),
+.p61 span:nth-child(8) {
+    font-weight: lighter;
+    font-size: 12px;
+}
 
 /* interface */
 
@@ -233,7 +363,7 @@
     color: #FFFFFF;
     text-decoration: none;
     height: 10%;
-    width: 10%x;
+    width: 8%;
     display: inline-block;
     font-size: 20px;
 }
@@ -247,7 +377,7 @@
 
 .chat-with {
     line-height: 0;
-      font-style: italic;
+    font-style: italic;
 }
 
 img {
@@ -331,7 +461,7 @@ ul {
 
 textarea {
     height: 2vw;
-    width: 30vw;
+    width: 80%;
     border: none;
     resize: none;
     font-size: 16px;
@@ -364,7 +494,8 @@ textarea {
     padding-top: 10px;
 }
 
-.voice1:after {
+.voice1:after,
+.voice3:after {
     content: '';
     position: absolute;
     left: 0;
