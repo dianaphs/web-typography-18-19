@@ -279,11 +279,13 @@ img {
 
 #closed-captions p {
     opacity: 0;
+    display: none;
     transition: .05s;
 }
 
 #closed-captions .on {
     opacity: 1;
+    display: inline-block;
 }
 
 #closed-captions .off {

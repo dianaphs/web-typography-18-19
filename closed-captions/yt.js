@@ -60,7 +60,9 @@ function updateTimerDisplay(){
 			updateTimerDisplay();
 		}, 100);
 	}
-	
+
+	var closedCaptionsDiv = document.getElementById('closed-captions')
+	closedCaptionsDiv.scrollTop = closedCaptionsDiv.scrollHeight
 }
 function pTimes(num,startT,endT,curT) {
 	var curP = document.querySelector('.p' + num);
@@ -136,4 +138,3 @@ function sTimes(num,soundStarts,curT) {
 		};
 	}
 })();
-
